@@ -1,0 +1,9 @@
+Create new "officeware" database in phpMyAdmin and run the sql script
+
+Credentials for 2 initial accounts:
+
+Username: admin
+Password: Administrator_sajta_50987
+
+Username: user
+Password: userPw11

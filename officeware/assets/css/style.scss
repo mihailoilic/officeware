@@ -1,0 +1,323 @@
+$primary: #50A6C2;
+$light-transparent: rgba(255,255,255,.9);
+* {
+    margin: 0px;
+    padding: 0px;
+}
+@font-face{
+    src: url("../fonts/Questrial-Regular.ttf");
+    font-family: "Questrial";
+}
+html {
+    scroll-behavior: smooth;
+    ::-webkit-scrollbar {
+        width: 10px;
+    }
+    ::-webkit-scrollbar-thumb {
+        background-color: $primary;
+        &:hover{
+            background: rgba($primary, .8); 
+        }
+    }
+}
+body {
+    position: relative;
+    background: url("../img/background.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    min-height: 100vh;
+}
+.btn-primary {
+    background-color: $primary;
+    border-color: $primary;
+    &:hover {
+        background-color: rgba($primary, .8);
+        border-color: $primary;
+    }
+    &:active, &:focus {
+        background-color: $primary!important;
+        
+    }
+}
+.btn, input {
+    &:active, &:focus {
+        box-shadow: 0 0 0 0.2rem rgba($primary,.5)!important;
+        border-color: $primary;
+    }
+}
+.bg-light-trans {
+    background: $light-transparent;
+}
+.button {
+    background:rgba(0,0,0, .5);
+    transition: all .3s;
+    &:hover {
+        background: rgba(0,0,0,.3);
+    }
+}
+.color-primary {
+    color: $primary;
+}
+.max-width-400 {
+    max-width: 400px;
+}
+
+a{
+    color: $primary;
+    &:hover {
+        text-decoration: none!important;
+    }
+}
+ul {
+    list-style-type: none;
+}
+#header {
+    z-index: 1000;
+    height: 80px;
+    #logo-title {
+        color: $primary;
+        font-size: 1.3rem;
+        font-weight: 300;
+        
+    }
+    #logo-img {
+        width: 50px;
+    }
+    #menu-button {
+        font-size: 1.4rem;
+    }
+    #admin-panel {
+        top: 82px;
+        // height: 50px;
+    }
+    nav {
+        
+        a{
+            color: $primary;
+            padding: 2px;
+            &:hover, &.active {
+                border-bottom: 1px solid $primary;
+            }
+        }
+    }
+    #responsive-menu-wrapper {
+        display: none;
+        top: 80px;
+        left: 0px;
+        // z-index: 1000;
+    }
+}
+main {
+    
+    
+}
+//HOME PAGE
+#home {
+    #slider-wrapper {
+    }
+    #hero {
+        z-index: 10;
+            h1,p{
+            color: #fff;
+            background: rgba(0,0,0, .5);
+            padding: 2px 5px;
+            max-width: 70%;
+            
+        }
+        @media screen and (max-width: 575px) {
+            h1 {
+                font-size: 1.2em;
+            }
+            p {
+                font-size: .9em;
+            }
+        }
+
+    }
+    #slider {
+        position: relative;
+        .slick-slide img {
+            height: 100vh;
+            object-fit: cover;
+        }
+        .slick-prev, .slick-next {
+            position: absolute;
+            // top: 20px;
+            background: rgba(0,0,0, .5);
+            border-radius: 50%;
+            padding: 7px 12px;
+            z-index: 10;
+            color: #fff;
+        }
+        .slick-prev{
+            left: 15px;
+        }
+        
+        .slick-next {
+            right: 15px;
+        }
+    }
+}
+
+.page-image {
+    height: 60vh;
+    z-index: 10;
+        h1,h2{
+        color: #fff;
+        background: rgba(0,0,0, .5);
+        padding: 2px 5px;
+        max-width: 70%;
+        
+    }
+    @media screen and (max-width: 575px) {
+        h1 {
+            font-size: 1.2em;
+        }
+        h2 {
+            font-size: .9em;
+        }
+    }
+}
+//LOGIN PAGE
+#login {
+    *{
+        max-width: 500px;
+    }
+}
+//REGISTER PAGE 
+#register {
+    * {
+        max-width: 500px;
+    }
+}
+
+//SHOP PAGE
+#shop {
+    #shop-image {
+        background-image: url("../img/shop-background.jpg");
+        background-size: cover;
+        
+    }
+    #products-wrapper{
+        max-width: 1500px;
+
+        #max-price {
+            // width: 100px;
+        }
+        #search-products{
+            border-radius: .25rem 0 0 .25rem;
+        }
+        #search-products-btn{
+            border-radius: 0 .25rem .25rem 0;
+        }
+    }
+    .product {
+        &:hover {
+            filter: brightness(80%);
+        }
+    }
+    .products-page-link.active {
+        background: $primary;
+        color: #fff;
+    }
+    #clear-filters {
+        display: none;
+    }
+}
+//PRODUCT PAGE
+#product {
+    #add-to-cart-quantity{
+        width: 45px;
+    }
+}
+//CART PAGE 
+#cart {
+    .cart-item-quantity{
+        width: 60px;
+    }
+}
+
+//ADMIN PRODUCTS PAGE 
+#admin-products {
+    input, select{
+        border-radius: .25rem 0 0 .25rem;
+    }
+    .btn.col-4{
+        max-width: 60px;
+        border-radius: 0 .25rem .25rem 0;
+        height: calc(1.5em + .75rem + 2px);
+    }
+}
+
+//ADMIN USERS PAGE
+#admin-users {
+    overflow-x: scroll;
+    #search-users {
+        width: 300px;
+    }
+    #users, #users-wrapper {
+        min-width: 900px;
+
+        .show-change-pw, .show-remove-user {
+            &.active {
+                background: rgba($primary, .7)!important;
+                border-color: transparent;
+            }
+        }
+        .change-pw-container, .remove-user-container {
+            display: none;
+        }
+
+        .user-info:nth-child(even) {
+            background: rgba(0,0,0, .05);
+        }
+    }
+}
+
+//ACCOUNT PAGE
+#account {
+    #change-pw-wrapper {
+        input, .alert{
+            max-width: 400px;
+        }
+    }
+}
+
+
+//CONTACT PAGE 
+#contact {
+    
+    *{
+        max-width: 600px;
+    }
+}
+
+//ADMIN MESSAGES PAGE 
+#admin-messages {
+    
+    *{
+        max-width: 600px;
+    }
+}
+
+//POLL
+#poll {
+    
+    *{
+        max-width: 500px;
+    }
+}
+
+//ADMIN POLL
+#admin-poll {
+    
+    *{
+        max-width: 500px;
+    }
+}
+
+footer {
+    #footer-img {
+        width: 50px;
+    }
+}

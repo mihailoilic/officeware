@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<url>
+  <loc>http://officeware.epizy.com/</loc>
+  <lastmod>2020-03-08</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.9</priority>
+</url>
+<url>
+  <loc>http://officeware.epizy.com/shop.php</loc>
+  <lastmod>2020-03-08</lastmod>
+  <changefreq>daily</changefreq>
+  <priority>1</priority>
+</url>
+<url>
+  <loc>http://officeware.epizy.com/product.php</loc>
+  <lastmod>2020-03-08</lastmod>
+  <changefreq>daily</changefreq>
+  <priority>1</priority>
+</url>
+<url>
+  <loc>http://officeware.epizy.com/account.php</loc>
+  <lastmod>2020-03-08</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.6</priority>
+</url>
+<url>
+  <loc>http://officeware.epizy.com/admin-messages.php</loc>
+  <lastmod>2020-03-08</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.6</priority>
+</url>
+<url>
+  <loc>http://officeware.epizy.com/admin-products.php</loc>
+  <lastmod>2020-03-08</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.6</priority>
+</url>
+<url>
+  <loc>http://officeware.epizy.com/admin-product-edit.php</loc>
+  <lastmod>2020-03-08</lastmod>
+  <changefreq>daily</changefreq>
+  <priority>0.6</priority>
+</url>
+<url>
+  <loc>http://officeware.epizy.com/admin-users.php</loc>
+  <lastmod>2020-03-08</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.6</priority>
+</url>
+<url>
+  <loc>http://officeware.epizy.com/admin-poll.php</loc>
+  <lastmod>2020-03-08</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.6</priority>
+</url>
+<url>
+  <loc>http://officeware.epizy.com/cart.php</loc>
+  <lastmod>2020-03-08</lastmod>
+  <changefreq>daily</changefreq>
+  <priority>0.9</priority>
+</url>
+<url>
+  <loc>http://officeware.epizy.com/login.php</loc>
+  <lastmod>2020-03-08</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>0.9</priority>
+</url>
+<url>
+  <loc>http://officeware.epizy.com/register.php</loc>
+  <lastmod>2020-03-08</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>0.9</priority>
+</url>
+<url>
+  <loc>http://officeware.epizy.com/poll.php</loc>
+  <lastmod>2020-03-08</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.9</priority>
+</url>
+<url>
+  <loc>http://officeware.epizy.com/contact.html</loc>
+  <lastmod>2020-03-08</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>0.6</priority>
+</url>
+<url>
+  <loc>http://officeware.epizy.com/author.html</loc>
+  <lastmod>2020-03-08</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>0.4</priority>
+</url>
+</urlset>
