@@ -1,2 +1,1 @@
-# officeware
-PHP
+A project for college PHP1 course.
